@@ -6,13 +6,19 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #b4b4b4; }
+  background-color: #b4b4b4;
+ }
 
 .contenedor {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 70px 80px 600px 80px 1fr 350px;
-  grid-template-areas: "encabezado encabezado encabezado encabezado" "navegacion navegacion navegacion navegacion" "principal principal principal principal" "titulo titulo titulo titulo" "nuestrosTr nuestrosTr nuestrosTr nuestrosTr" "pie pie pie pie";
+  grid-template-areas: "encabezado encabezado encabezado encabezado"
+ "navegacion navegacion navegacion navegacion"
+ "principal principal principal principal"
+ "titulo titulo titulo titulo"
+ "nuestrosTr nuestrosTr nuestrosTr nuestrosTr"
+ "pie pie pie pie";
   max-width: 70%;
   margin: auto;
   background-color: #b4b4b4; }
@@ -95,7 +101,8 @@ main {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 70% 30%;
-  grid-template-areas: "MainFormulario MainFormulario MainMapa MainMapa" "MainDatos MainDatos MainDatos MainDatos";
+  grid-template-areas: "MainFormulario MainFormulario MainMapa MainMapa"
+ "MainDatos MainDatos MainDatos MainDatos";
   gap: 0.5em; }
 
 .mainContentIndex h1 {
@@ -452,7 +459,12 @@ footer {
     max-width: 95%;
     grid-template-columns: 50% 50%;
     grid-template-rows: .3fr .3fr 2fr .3fr;
-    grid-template-areas: "encabezado encabezado" "navegacion navegacion" "principal principal" "titulo titulo" "nuestrosTr nuestrosTr" "pie pie"; }
+    grid-template-areas: "encabezado encabezado"
+ "navegacion navegacion"
+ "principal principal"
+ "titulo titulo"
+ "nuestrosTr nuestrosTr"
+ "pie pie"; }
   .contenedorIndex {
     max-width: 95%;
     margin: auto; }
@@ -651,7 +663,12 @@ footer {
     max-width: 90%;
     grid-template-columns: 100%;
     grid-template-rows: 70px 60px 2fr 70px 2fr 1fr;
-    grid-template-areas: "encabezado" "navegacion" "principal" "titulo" "nuestrosTr" "pie"; }
+    grid-template-areas: "encabezado"
+ "navegacion"
+ "principal"
+ "titulo"
+ "nuestrosTr"
+ "pie"; }
   /*---------------------------------------HEADER--------------------------------------*/
   /*-----------------------------------------CEL---------------------------------------*/
   /*---------------------------------------HEADER--------------------------------------*/
